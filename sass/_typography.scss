@@ -5,6 +5,11 @@
 
 .heading-1 {
   @extend %heading;
+  font-size: 4rem;
+  color: #fff;
+  font-family: $font-display;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 .heading-2 {
   @extend %heading;

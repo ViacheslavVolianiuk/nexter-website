@@ -1,4 +1,35 @@
 .realtors {
   background-color: $color-secondary;
   grid-column: col-start 7 / full-end;
+  display: grid;
+  padding: 3rem;
+  justify-content: center;
+  align-content: center;
+  row-gap: 3rem;
+  &__heading {
+    justify-self: center;
+  }
+  &__realtor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    &-img {
+      height: 7rem;
+      width: 7rem;
+      border-radius: 50%;
+      grid-row: 1 / span 2;
+      grid-column: 1/2;
+      justify-self: center;
+    }
+    &-name {
+      color: #fff;
+      font-size: 2rem;
+      align-self: center;
+    }
+    &-housesold {
+      align-self: start;
+      grid-column: 2 /3;
+      color: $color-grey-light-2;
+      text-transform: uppercase;
+    }
+  }
 }
