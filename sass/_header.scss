@@ -66,11 +66,12 @@
   }
   &__logo {
     max-height: 30%;
+    max-width: 30%;
   }
   &__compbox {
-    width: 100%;
+    width: 80%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 
     &-logo {
       max-height: 25%;
