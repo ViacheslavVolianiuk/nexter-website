@@ -67,6 +67,9 @@
   &__logo {
     max-height: 25%;
     max-width: 25%;
+    @media only screen and (max-width: 25em) {
+      width: 2rem;
+    }
   }
   &__compbox {
     width: 70%;
@@ -76,6 +79,9 @@
     &-logo {
       max-height: 25%;
       filter: brightness(70%);
+      @media only screen and (max-width: 25em) {
+        width: 2rem;
+      }
     }
   }
 }
