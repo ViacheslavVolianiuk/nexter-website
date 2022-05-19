@@ -71,7 +71,7 @@
   &__compbox {
     width: 70%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     @media only screen and (max-width: 25em) {
       width: 30%;
     }
