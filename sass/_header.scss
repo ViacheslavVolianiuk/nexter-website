@@ -65,11 +65,11 @@
     transform: translateY(-50%);
   }
   &__logo {
-    max-height: 30%;
-    max-width: 30%;
+    max-height: 25%;
+    max-width: 25%;
   }
   &__compbox {
-    width: 80%;
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 
