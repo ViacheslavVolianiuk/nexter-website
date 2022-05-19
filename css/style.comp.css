@@ -186,7 +186,7 @@ body {
     max-width: 25%; }
     @media only screen and (max-width: 25em) {
       .header__logo {
-        width: 2rem; } }
+        width: 10rem; } }
   .header__compbox {
     width: 70%;
     display: grid;
