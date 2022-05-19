@@ -90,7 +90,7 @@ body {
 
 @media only screen and (max-width: 25em) {
   .header__compbox-logo {
-    width: 15rem; } }
+    width: 25rem; } }
 
 .sidebar {
   background-color: #c69963;
